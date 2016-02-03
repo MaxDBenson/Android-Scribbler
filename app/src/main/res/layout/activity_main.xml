@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="edu.pitt.cs.cs1635.mdb91.notetaker.MainActivity">
+
+    <!--Dedicated to "myCanvas" view-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/main_layout"
+        android:layout_weight="1">
+    </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:id = "@+id/clear_button"
+            android:text="@string/clear"
+            android:textSize ="20sp"
+            android:layout_gravity="bottom"
+            android:onClick="clearCanvas"/>
+
+
+</LinearLayout>

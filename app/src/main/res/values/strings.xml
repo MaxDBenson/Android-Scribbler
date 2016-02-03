@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NoteTaker</string>
+    <string name="options">Settings</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="colors">Brush Color</string>
+    <string name="black">Black</string>
+    <string name="green">Green</string>
+    <string name="clear">Clear</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="fivepx">Five Pixels</string>
+    <string name="fifteenpx">Fifteen Pixels</string>
+    <string name="twentyfivepx">Twenty Five Pixels</string>
+    <string name="thirtyfivepx">Thirty Five Pixels</string>
+    <string name="settings">Settings</string>
+</resources>
